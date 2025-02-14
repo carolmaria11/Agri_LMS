@@ -54,7 +54,7 @@ function CourseEnrollSection({courseInfo,isUserAlreadyEnrolled}) {
         </div>
        : !isUserAlreadyEnrolled&&<div className=' flex flex-col gap-3 mt-3'>
         <h2 className='text-white font-light'>Buy Monthly Membership and Get Access to all the Courses</h2>
-        <Button className="bg-white text-primary hover:bg-white hover:text-primary">Buy Membership Just For Rs.300</Button>
+        <Link href={"/agrilearn-pro"}><Button className="bg-white text-primary hover:bg-white hover:text-primary">Buy Membership Just For Rs.300</Button></Link>
         </div>}
         {/*Above section user does not hav membership or not login or signup  */}
 

@@ -27,6 +27,10 @@ export default function RootLayout({ children }) {
   const [isMember,setIsMember]=useState(false);
   return (
     <html lang="en">
+      <head>
+      <link rel="icon" type="image/x-icon" href="/fav.svg"></link>
+      <title>Agri-Learn</title>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

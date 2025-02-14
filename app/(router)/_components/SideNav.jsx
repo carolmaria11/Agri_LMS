@@ -25,24 +25,10 @@ function SideNav() {
             auth: true
         },
         {
-            id:4,
-            name:'Store',
-            icon: LayoutGrid,
-            path:'/store',
-            auth: true
-        },
-        {
             id:2,
             name:'Membership',
             icon: BadgeCheck,
             path:'/agrilearn-pro',
-            auth: true
-        },
-        {
-            id:3,
-            name:'Be Instructor',
-            icon: GraduationCap,
-            path:'/instructor',
             auth: true
         }
     ]
@@ -53,15 +39,17 @@ function SideNav() {
     },[])
   return (
     <div className='p-5 bg-white shadow-sm border h-screen'>
+        <div className='flex justify-center items-center'>
         <Image src='/logo.svg' alt='logo'
-        width={170} height={80}/>
+        width={180} height={90} />
+        </div>
 
         <hr className='mt-7'></hr>
         {/* Menu List */}
         <div className='mt-5 '>
             {menu.map((item)=>item.auth&&(
                 <Link href={item.path} key={item.id}>
-                <div className={`group flex gap-3 mt-2 p-3 text-[18px] items-center
+                <div className={`group flex gap-3 mt-5 p-3 text-[18px] items-center
                  text-gray-500 cursor-pointer
                  hover:bg-primary
                  hover:text-white

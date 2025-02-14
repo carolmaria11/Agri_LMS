@@ -25,7 +25,7 @@ function SideBanners() {
                 width={500}
                 height={300}
                 onClick={()=>window.open(item?.url)}
-                className='rounded-xl cursor-pointer hover:shadow-md hover:shadow-emerald-300'/>
+                className='rounded-xl cursor-pointer hover:shadow-md hover:shadow-emerald-300 mt-3'/>
             </div>
         ))}
     </div>

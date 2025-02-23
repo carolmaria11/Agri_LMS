@@ -40,8 +40,8 @@ function SideNav() {
   return (
     <div className='p-5 bg-white shadow-sm border h-screen'>
         <div className='flex justify-center items-center'>
-        <Image src='/logo.svg' alt='logo'
-        width={180} height={90} />
+        <Link href={"https://agri-home.vercel.app/"}><Image src='/logo.svg' alt='logo'
+        width={180} height={90} /></Link>
         </div>
 
         <hr className='mt-7'></hr>

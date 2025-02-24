@@ -84,7 +84,7 @@ const AgriallyPro = () => {
           <div className="bg-white p-8 text-center rounded-xl shadow-md w-64 hover:border-emerald-500 hover:border">
             <h3 className="text-xl font-semibold">Monthly</h3>
             <p className="text-emerald-700 text-2xl font-bold">
-              4.99$/<span className="text-sm">month</span>
+              ₹299/<span className="text-sm">month</span>
             </p>
             <ul className="text-left mt-4">
               {[
@@ -111,7 +111,7 @@ const AgriallyPro = () => {
           <div className="bg-white p-8 text-center rounded-xl shadow-md w-64 hover:border-emerald-500 hover:border">
             <h3 className="text-xl font-semibold">Yearly</h3>
             <p className="text-emerald-700 text-2xl font-bold">
-              39.99$/<span className="text-sm">month</span>
+              ₹2599/<span className="text-sm">month</span>
             </p>
             <ul className="text-left mt-4">
               {[
@@ -128,7 +128,7 @@ const AgriallyPro = () => {
             </ul>
             <button
               className="mt-4 px-6 py-2 text-white bg-emerald-700 rounded-full font-semibold transition hover:bg-emerald-800"
-              onClick={() => createSubscription("plan_Yearly123")}
+              onClick={() => createSubscription("plan_Pqok8dvtg3CIxS")}
             >
               Get Started
             </button>
